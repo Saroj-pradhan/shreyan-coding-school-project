@@ -2,12 +2,14 @@
     margin: 0%;
    padding: 0;
     box-sizing: border-box;
-    font-family:'montserrat';
+    font-family: 'gilroy';
+    
 }
 body,html{
     height: 100%;
     width: 100%;
     color: rgb(19, 11, 11);
+   
 }
 #nav{
     display: flex;
@@ -35,6 +37,7 @@ align-items: center;
 }
 #nav img{
     height: 40px;
+   
 }
 .sign{
     display: flex;
@@ -45,6 +48,7 @@ align-items: center;
     
     display: flex;
     width: 100%;
+    font-family: 'gilroy';
 }
 
 .sec1{
@@ -103,6 +107,7 @@ margin: 100px 320px;
     margin:60px  40px;
     display: flex;
     justify-content: space-between;
+    filter: grayscale(100%);
 }
 .company-images img{
 width: 90px;
@@ -118,7 +123,7 @@ margin:180px 55px 20px 55px;
 
 }
 .row1 img{
-   max-width: 500px;
+   max-width: 80%;
 }
 
 .row2{
@@ -179,21 +184,22 @@ margin:180px 55px 20px 55px;
 .fifth-section{
 background-color: hwb(0 91% 9% / 0.982);
 width: 100%;
-padding-bottom: 40px;
+padding-bottom: 5%;
 
 
 }
 .fifth-section-row1{
    
-    padding: 60px 86px;
+    padding: 6rem 8rem;
 display: flex;
+flex-wrap: wrap;
 justify-content: space-around;
 
 }
 .bg-row{
     min-width: 430px;
     padding: 30px;
-    height: 380px;
+    height:  27rem;
     background-color: white;
     
     margin-right: 29px;
@@ -203,29 +209,24 @@ justify-content: space-around;
     overflow: scroll;
     margin-left: 30px;
 }
+.bg-row h3{
+ padding-top: 1px;
+}
 .fifth-section-row2::-webkit-scrollbar{
     width: 0;
 }
-.img-1st img {
-min-width: 95%;
-max-height: 120px;
-overflow: hidden;
-margin-bottom: 20px;
-transition: all .2s;
-}
-.row2-1{
-    margin-bottom: 20px;
-}
+
 .bg-row:hover .img-1st,
 .bg-row:focus .img-1st{
   transform: scale(0.9);
 }
 .img-logo{
-    padding-top: 13px;
+   
     display: flex;
     
-    align-items:center ;
-    gap: 5px;
+    padding-top: 20px   ;
+    padding-bottom: 10px;
+    gap:25px;
  
 
 }
@@ -235,6 +236,7 @@ transition: all .2s;
    width: 35px;
    
 }
+
 .img-2nd img {
     min-width: 95%;
     max-height: 120px;
@@ -289,10 +291,10 @@ transition: all .2s;
 .text-info{
 position: absolute;
 width: 245px;
-height: 140px;
+height: 10rem;
 border-radius: 15px;
 padding-left: 25px;
-padding-top: 20px;
+
 top: 72%;
 left: 50%;
 transform: translate(-50%, -50%);
@@ -409,6 +411,8 @@ padding-bottom: 40px;
     width: 6rem;
     height: 7rem;
 }
+
+  
 .count1{
     font-size: 20px;
     margin-top: 10px;
