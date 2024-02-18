@@ -118,12 +118,14 @@ height: 50px;
 .third-section{
     max-width: 100%;
 display: flex;
+flex-wrap: wrap;
 justify-content: space-between;
 margin:180px 55px 20px 55px;
 
 }
 .row1 img{
    max-width: 80%;
+   min-width: 375px;
 }
 
 .row2{
@@ -142,13 +144,15 @@ margin:180px 55px 20px 55px;
 .fourth-section{
     max-width: 100%;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     margin:40px 55px 20px 55px;
     
 
 }
 .row4 img{
-    max-width: 500px;
+    max-width: 35rem;
+    min-width: 375px;
     padding-right: 45px;
  }
  .row4{
